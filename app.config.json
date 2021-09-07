@@ -2,6 +2,7 @@
   "apiUrl": "http://localhost:3001",
   "brandName": "Your Community Resources",
   "homeUrl": "",
+  "publicUrl": "http://localhost:3000",
   "feedbackUrl": "",
   "contactEmail": "johndoe@connect211.com",
   "contactNumber": "",
@@ -30,6 +31,10 @@
       "userPoolId": "us-west-2_2NKh4ADWF",
       "clientId": "d78p6numd8fb1mtj2824e04jd"
     }
+  },
+  "apiKeys": {
+    "googleMaps": "your-google-maps-api-key",
+    "googlePlaces": "your-google-places-api-key"
   },
   "theme": {
     "baseFontSize": "17px",
