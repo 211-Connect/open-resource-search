@@ -12,6 +12,8 @@ The goal of this app is to provide all 211s with an equal opportunity at a rich 
 - A hosting platform
   - We recommend Vercel
   - Other options include Digital Ocean App Platform, Netlify, Render, etc.
+- Google Maps
+- Google Places
 
 #### Set up
 
