@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="54px" viewBox="0 0 38 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>pin</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="78.125%" y1="0%" x2="21.875%" y2="88.6230469%" id="linearGradient-1">
+            <stop stop-color="#005191" offset="0%"></stop>
+            <stop stop-color="#005191" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="UI-Style-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04.-Iconography-&amp;-Illustration" transform="translate(-230.000000, -956.000000)">
+            <g id="pin" transform="translate(231.000000, 957.000000)">
+                <g>
+                    <path d="M18,-0.5 C28.2172679,-0.5 36.5,7.78273213 36.5,18 C36.5,25.1202155 34.2597661,28.6797936 28.0780384,34.0808444 C27.9944328,34.1538917 27.2801945,34.7766074 27.0701114,34.9605469 C21.8616966,39.5208034 19.5871649,42.6136851 18.4902903,48.0980581 L18,50.5495098 L17.5097097,48.0980581 C16.4128351,42.6136851 14.1383034,39.5208034 8.9298886,34.9605469 C8.71980548,34.7766074 8.00556719,34.1538917 7.92196156,34.0808444 C1.74023392,28.6797936 -0.5,25.1202155 -0.5,18 C-0.5,7.78273213 7.78273213,-0.5 18,-0.5 Z M18,4.5 C10.5441559,4.5 4.5,10.5441559 4.5,18 C4.5,25.4558441 10.5441559,31.5 18,31.5 C25.4558441,31.5 31.5,25.4558441 31.5,18 C31.5,10.5441559 25.4558441,4.5 18,4.5 Z" id="Combined-Shape" stroke="#FFFFFF" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                    <circle id="Oval-Copy-6" fill-opacity="0.9" fill="#BBCFDF" cx="18" cy="18" r="14"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

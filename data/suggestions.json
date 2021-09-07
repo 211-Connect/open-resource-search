@@ -1,0 +1,87 @@
+[
+  {
+    "objectID": "0a67b946-3914-4dd9-be32-f2ea86d4bef9",
+    "term": "I need a place to stay tonight.",
+    "taxonomies": "BH-1800.3500,BH-1800.8500,BH-7000.4600-800"
+  },
+  {
+    "objectID": "6c5ede9c-8dce-4c4f-bb16-57948b6f1c67",
+    "term": "I need help finding housing.",
+    "taxonomies": "BH-3800.7250,BH-3900,BH-7000.4600-450,BH-7000.4600-600"
+  },
+  {
+    "objectID": "7bbbeff6-8031-4d69-b009-08089deb3b5d",
+    "term": "I need help affording my apartment/home.",
+    "taxonomies": "BH-3800.5000,BH-3800.7000,DT-8700.7000-700"
+  },
+  {
+    "objectID": "4a5c6b5b-5c0b-4adb-a0a5-9481f23c62eb",
+    "term": "I need to find a job.",
+    "taxonomies": "ND-2000.1500-160,ND-2000.3500,ND-2000.6500,ND-3500"
+  },
+  {
+    "objectID": "cdd244e7-e659-4f62-b693-826f5fe4bb0c",
+    "term": "I need help paying my utility (gas/electric/heating fuel/water) bill.",
+    "taxonomies": "BV-8900.1700-300,BV-8900.9125-920,BV-8900.9300-180,BV-8900.9300-250,BV-8900.9300-300,BV-8900.9300-950"
+  },
+  {
+    "objectID": "27beb427-3312-46a1-ba3c-bb997dd5bcf1",
+    "term": "I need to know what kind of help I can get from the State of WA.",
+    "taxonomies": "FT-1000,NL-1000.2500,NL-1000.8500,NL-3000.1500,NL-5000.5000,NL-6000.2000,PH-0700"
+  },
+  {
+    "objectID": "ceee3539-ed44-43da-92ae-115c9ade715a",
+    "term": "I need food.",
+    "taxonomies": "BD-1800.1500,BD-1800.2000,BD-5000.1500,BD-5000.3500,BD-5000.8300,BD-5000.8500,NL-6000.2000"
+  },
+  {
+    "objectID": "a934882a-7f4b-4008-89be-64e7afdfa946",
+    "term": "I need health insurance for myself or my family.",
+    "taxonomies": "LH-3500,LH-3500.0200-200,NL-5000.5000,NS-8000.5000"
+  },
+  {
+    "objectID": "d47d2268-c02c-4ca9-8d79-e41960126799",
+    "term": "I don't have enough money to pay all my bills.",
+    "taxonomies": "BV-8900.9125-920,DM-1500.1500,DM-2000,DM-2000,DM-6500,DT-8700.2000-180,NT"
+  },
+  {
+    "objectID": "f870b35c-2ef0-4cd8-bcd2-c2b97fda1612",
+    "term": "My child is in crisis and I don't know what to do.",
+    "taxonomies": "RP-1500.3400-650"
+  },
+  {
+    "objectID": "44ab3a5b-9d18-4359-94be-b7fcd581a71e",
+    "term": "I need treatment for a drug or alcohol addiction.",
+    "taxonomies": "RX-0400.1500,RX-0400.2500,RX-8450.8000"
+  },
+  {
+    "objectID": "b8c3135e-d144-40a4-945d-b89d51f66139",
+    "term": "I need help preparing my taxes.",
+    "taxonomies": "DT-8700.2000-180,DT-8700.2000-200,DT-8800"
+  },
+  {
+    "objectID": "68699a09-5a87-4724-a4bb-2a9eb409feb4",
+    "term": "I need to find a counselor to talk to.",
+    "taxonomies": "RD-1900,RF-8380,RP-1400.2500,RP-1400.8000-050,RP-1400.8000-155,RP-1400.8000-675,RP-5000,RR-8500"
+  },
+  {
+    "objectID": "6bad6a25-7044-4f16-9136-b6e5dd28fcb7",
+    "term": "My utilities are going to be shut off.",
+    "taxonomies": "BV-8900.9200,BV-8900.9220,BV-8900.9300-180,BV-8900.9300-250,BV-8900.9300-950"
+  },
+  {
+    "objectID": "6bb57aa5-93ea-4526-9ffd-bee50986e0fb",
+    "term": "I need transportation.",
+    "taxonomies": "BT-4500.4600,BT-4500.4700,BT-4500.6500-170,BT-4500.6500-500,BT-4500.6500-800,BT-8500.1000-180,YL-3500.9400"
+  },
+  {
+    "objectID": "f5c24076-b60c-4284-8e83-00ad314d5608",
+    "term": "I'm a veteran and need help.",
+    "taxonomies": "FT-1000,TJ-3000.8000"
+  },
+  {
+    "objectID": "9ac85722-af72-40ae-a980-63c02c2c6c97",
+    "term": "I'm feeling depressed and need some help.",
+    "taxonomies": "RF-8380,RP-1500.1400-500,RP-1500.1400-800,RP-1500.3400-650"
+  }
+]

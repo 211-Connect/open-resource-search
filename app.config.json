@@ -1,0 +1,46 @@
+{
+  "apiUrl": "http://localhost:3001",
+  "brandName": "Your Community Resources",
+  "homeUrl": "",
+  "feedbackUrl": "",
+  "contactEmail": "johndoe@connect211.com",
+  "contactNumber": "",
+  "meta": {
+    "description": "You community resource data is unique, but the best way to find answers is remarkably similar in all cases. By following best practices for searching, we deliver a great experience for your users, and super quick setup time."
+  },
+  "search": {
+    "title": "How can I help?",
+    "label": "Search resources in your community",
+    "subtitle": "",
+    "subtitleUrlText": "",
+    "subtitleUrl": ""
+  },
+  "alertSearch": {
+    "text": "",
+    "buttonText": "",
+    "url": ""
+  },
+  "mapCenter": {
+    "lat": "47.751076",
+    "lon": "-120.740135"
+  },
+  "aws": {
+    "cognito": {
+      "region": "us-west-2",
+      "userPoolId": "us-west-2_2NKh4ADWF",
+      "clientId": "d78p6numd8fb1mtj2824e04jd"
+    }
+  },
+  "theme": {
+    "baseFontSize": "17px",
+    "primaryColor": "#005191",
+    "primaryMediumColor": "#3E7BAB",
+    "primaryLightColor": "#BBCFDF",
+    "secondaryColor": "#FFB351",
+    "secondaryMediumColor": "#FDC47B",
+    "secondaryLightColor": "#FBE8CF",
+    "errorColor": "#DA291C",
+    "successColor": "#00C48C",
+    "borderRadius": "8px"
+  }
+}

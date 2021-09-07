@@ -1,0 +1,99 @@
+[
+  {
+    "categoryName": "Disabilities",
+    "categoryImage": "/disability.svg",
+    "categories": [
+      { "name": "Assistive Technology", "id": "LH-2700.0500" },
+      { "name": "Early Intervention", "id": "LR-1700" },
+      { "name": "Employment", "id": "ND-6500.1500" },
+      { "name": "Financial Support", "id": "NS-1800" }
+    ]
+  },
+  {
+    "categoryName": "Domestic Violence",
+    "categoryImage": "/harrassment.svg",
+    "categories": [
+      { "name": "Hotline", "id": "RP-1500.1400-200" },
+      { "name": "Shelter", "id": "BH-1800.1500-100" }
+    ]
+  },
+  {
+    "categoryName": "Education",
+    "categoryImage": "/assessment.svg",
+    "categories": [
+      { "name": "Homeless Student Liaison", "id": "HH-3000" },
+      { "name": "GED Classes", "id": "HH-0500.2500-250" },
+      { "name": "ESL Classes", "id": "HH-0500.8000-150" },
+      { "name": "Tutoring/Homework Help", "id": "HL-8700" }
+    ]
+  },
+  {
+    "categoryName": "Employment",
+    "categoryImage": "/training.svg",
+    "categories": [
+      { "name": "Job Search", "id": "ND-3500.3600" },
+      { "name": "Job Seeking Skills", "id": "ND-2000.6500" },
+      { "name": "Youth", "id": "ND-6500.9800" }
+    ]
+  },
+  {
+    "categoryName": "Financial",
+    "categoryImage": "/financing.svg",
+    "categories": [
+      { "name": "Rent Assistance", "id": "BH-3800.7000" },
+      { "name": "Move-in Assistance", "id": "BH-3800.7250" },
+      { "name": "Utility Assistance", "id": "BV-8900.9300" },
+      { "name": "Utility Discounts", "id": "BV-8900.1700" }
+    ]
+  },
+  {
+    "categoryName": "Food",
+    "categoryImage": "/food.svg",
+    "categories": [
+      { "name": "Free Meals", "id": "BD-5000.8300" },
+      { "name": "Senior Meals", "id": "BD-5000.1500" },
+      { "name": "Food Pantries/Banks", "id": "BD-1800.2000" },
+      { "name": "Grocery Delivery", "id": "BD-2400.2590" },
+      { "name": "Home Delivered Meals", "id": "BD-5000.3500" }
+    ]
+  },
+  {
+    "categoryName": "Health Care",
+    "categoryImage": "/health.svg",
+    "categories": [
+      { "name": "COVID-19 Testing", "id": "LF-4900.1565" },
+      { "name": "Dental Care", "id": "LV-1600" },
+      { "name": "Primary Care", "id": "LE" },
+      { "name": "Teen Clinics", "id": "LV-6800.0300" }
+    ]
+  },
+  {
+    "categoryName": "Personal/Household Items",
+    "categoryImage": "/clothing.svg",
+    "categories": [
+      { "name": "Clothing", "id": "BM-6500.1500" },
+      { "name": "Diapers", "id": "BM-6500.1500-150" },
+      { "name": "Hygiene Items", "id": "BM-6500.6500-650" }
+    ]
+  },
+  {
+    "categoryName": "Shelter/Housing",
+    "categoryImage": "/shelter.svg",
+    "categories": [
+      { "name": "Homeless Day Centers", "id": "BH-1800.3500" },
+      { "name": "Overnight Shelters", "id": "BH-1800.8500-150" },
+      { "name": "Permanent Housing", "id": "BH-7000.4600" },
+      { "name": "Transitional Housing", "id": "BH-8600" },
+      { "name": "Youth Shelter", "id": "BH-1800.1500-700" }
+    ]
+  },
+  {
+    "categoryName": "Transportation",
+    "categoryImage": "/transportation.svg",
+    "categories": [
+      { "name": "Bus Fare", "id": "BT-8300.1000" },
+      { "name": "Gas Money", "id": "BT-8300.2500" },
+      { "name": "Local Transportation", "id": "BT-4500" }
+    ]
+  }
+]
