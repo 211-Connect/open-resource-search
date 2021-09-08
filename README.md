@@ -2,9 +2,7 @@
 
 The goal of this app is to provide all 211s with an equal opportunity at a rich user experience, modern speed and efficiency for data searchability, and a low barrier to entry.
 
-## Run Locally
-
-#### dependencies
+## Dependencies
 
 - Amazon Web Services
   - Cognito
@@ -15,7 +13,7 @@ The goal of this app is to provide all 211s with an equal opportunity at a rich 
 - Google Maps
 - Google Places
 
-#### Set up
+## Run Locally
 
 Clone the project
 
