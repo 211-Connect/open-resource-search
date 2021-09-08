@@ -2,6 +2,8 @@
 
 The goal of this app is to provide all 211s with an equal opportunity at a rich user experience, modern speed and efficiency for data searchability, and a low barrier to entry.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F211-Connect%2Fopen-resource-search)
+
 ## Dependencies
 
 - Amazon Web Services
