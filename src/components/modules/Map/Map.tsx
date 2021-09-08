@@ -7,6 +7,7 @@ import { useAppSelector } from 'src/redux/store';
 import MapStyles from './mapStyles.json';
 import CustomMarker from './CustomMarker';
 import MapContainer from './MapContainer';
+import { getAppConfigValue } from '@util/getAppConfigValue';
 
 function Map({ google }) {
   const [showInfoWindow, setShowInfoWindow] = useState(false);
@@ -124,7 +125,7 @@ function Map({ google }) {
 }
 
 const WrappedMap = GoogleApiWrapper({
-  apiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
+  apiKey: getAppConfigValue('services.map.google.apiKey'),
 })(Map);
 
 export default function CustomWrappedMap() {

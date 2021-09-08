@@ -21,20 +21,28 @@
     "buttonText": "",
     "url": ""
   },
-  "mapCenter": {
-    "lat": "47.751076",
-    "lon": "-120.740135"
-  },
-  "aws": {
-    "cognito": {
-      "region": "us-west-2",
-      "userPoolId": "us-west-2_2NKh4ADWF",
-      "clientId": "d78p6numd8fb1mtj2824e04jd"
+  "services": {
+    "auth": {
+      "cognito": {
+        "region": "",
+        "userPoolId": "",
+        "clientId": ""
+      }
+    },
+    "map": {
+      "google": {
+        "apiKey": ""
+      },
+      "center": {
+        "lat": "47.751076",
+        "lon": "-120.740135"
+      }
+    },
+    "places": {
+      "google": {
+        "apiKey": ""
+      }
     }
-  },
-  "apiKeys": {
-    "googleMaps": "your-google-maps-api-key",
-    "googlePlaces": "your-google-places-api-key"
   },
   "theme": {
     "baseFontSize": "17px",
