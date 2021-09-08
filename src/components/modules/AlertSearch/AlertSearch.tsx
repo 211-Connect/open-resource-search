@@ -8,22 +8,20 @@ import { getAppConfigValue } from 'src/utils/getAppConfigValue';
 export default function AlertSearch() {
   const dispatch = useAppDispatch();
   const location = useAppSelector((state) => state.search.location);
+  let href;
 
-  if (
-    getAppConfigValue('alertSearch.url') == null ||
-    getAppConfigValue('alertSearch.text') == null ||
-    getAppConfigValue('alertSearch.buttonText') == null
-  ) {
-    return null;
-  }
+  if (getAppConfigValue('alertSearch.text') == null) return null;
 
   function clearQuery() {
     dispatch(setQuery(''));
   }
 
-  let href = getAppConfigValue('alertSearch.url');
+  const url = getAppConfigValue('alertSearch.url');
+  if (url != null) {
+    href = url;
+  }
 
-  if (location != null && location.length > 0) {
+  if (href != null && location != null && location.length > 0) {
     href += `&location=${location}`;
   }
 
@@ -34,9 +32,16 @@ export default function AlertSearch() {
           {getAppConfigValue('alertSearch.text')}
         </Text>
 
-        <Link onClick={clearQuery} href={href} variant="button" color="primary">
-          {getAppConfigValue('alertSearch.buttonText')}
-        </Link>
+        {href != null && (
+          <Link
+            onClick={clearQuery}
+            href={href}
+            variant="button"
+            color="primary"
+          >
+            {getAppConfigValue('alertSearch.buttonText') || 'Click here!'}
+          </Link>
+        )}
       </AlertsContainer>
     </Container>
   );

@@ -12,14 +12,14 @@
   "search": {
     "title": "How can I help?",
     "label": "Search resources in your community",
-    "subtitle": "",
-    "subtitleUrlText": "",
-    "subtitleUrl": ""
+    "subtitle": "Not finding what you're looking for?",
+    "subtitleUrlText": "Contact Us!",
+    "subtitleUrl": "#"
   },
   "alertSearch": {
-    "text": "",
-    "buttonText": "",
-    "url": ""
+    "text": "It's hot out! Click here to find cooling centers near you:",
+    "buttonText": "Find cooling centers",
+    "url": "#"
   },
   "services": {
     "auth": {

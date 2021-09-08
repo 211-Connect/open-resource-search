@@ -18,6 +18,6 @@ export function getAppConfigValue(path: string) {
 }
 
 function getEnvironment(path: string) {
-  const newPath = `NEXT_PUBLIC_${path.toUpperCase().replace(/\./gi, '_')}`;
+  const newPath = path.toUpperCase().replace(/\./gi, '_');
   return environment[newPath];
 }
