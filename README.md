@@ -2,8 +2,6 @@
 
 The goal of this app is to provide all 211s with an equal opportunity at a rich user experience, modern speed and efficiency for data searchability, and a low barrier to entry.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F211-Connect%2Fopen-resource-search)
-
 ## Dependencies
 
 - Amazon Web Services
@@ -43,7 +41,9 @@ Start the server
 
 ## Deployment
 
-For automated CI/CD we recommend Vercel. Getting set up is as simple as forking this repo, connecting it to Vercel, and filling out the required fields.
+For automated CI/CD we recommend Vercel. Getting set up is as simple as clicking the Deploy button below.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F211-Connect%2Fopen-resource-search)
 
 If you'd like to host this on your own, or on an alternative platform, you'll need to do the following:
 
