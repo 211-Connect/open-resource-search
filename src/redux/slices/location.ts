@@ -1,6 +1,7 @@
 import { createSlice, PayloadAction, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import SessionStorage from '@service/sessionStorage';
+import { getAppConfigValue } from '@util/getAppConfigValue';
 
 const initialState = {
   lat: null,
@@ -37,7 +38,9 @@ export const fetchLocation = createAsyncThunk(
       } else {
         // Fetch the location if it's not found in cache
         const res = await CustomAxios.post(
-          `https://maps.googleapis.com/maps/api/geocode/json?address=${config.location}&sensor=false&key=${process.env.NEXT_PUBLIC_GOOGLE_API_KEY}`
+          `https://maps.googleapis.com/maps/api/geocode/json?address=${
+            config.location
+          }&sensor=false&key=${getAppConfigValue('services.map.google.apiKey')}`
         );
 
         payload = {

@@ -66,7 +66,9 @@ function Search({ variant = 'outlined' }: Props) {
     const lng = position.coords.longitude;
 
     fetch(
-      `https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${lng}&sensor=false&key=${process.env.NEXT_PUBLIC_GOOGLE_API_KEY}`,
+      `https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${lng}&sensor=false&key=${getAppConfigValue(
+        'services.map.google.apiKey'
+      )}`,
       {
         method: 'POST',
       }
