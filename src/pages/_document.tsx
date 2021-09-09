@@ -1,6 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 import { ServerStyleSheets } from '@material-ui/core';
+import { getAppConfigValue } from '@util/getAppConfigValue';
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -39,7 +40,7 @@ export default class MyDocument extends Document {
           <meta charSet="utf-8" />
           <meta
             property="og:image"
-            content={`${process.env.NEXT_PUBLIC_URL}/ogimage.png`}
+            content={`${getAppConfigValue('publicUrl')}/ogimage.png`}
           />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
